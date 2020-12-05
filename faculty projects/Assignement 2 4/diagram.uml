@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="4.791666666666657" y="264.0">matrixPanel.checker</node>
+    <node x="93.2986111111111" y="530.0">matrixPanel.createMatrix</node>
+    <node x="38.76388888888886" y="1040.0">login.startPanel</node>
+    <node x="0.0" y="828.0">game.gamePanel</node>
+    <node x="80.60416666666666" y="0.0">matrixPanel.createBox</node>
+    <node x="112.76388888888881" y="1274.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="login.startPanel">
+      <point x="2.8421709430404007E-14" y="-27.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="matrixPanel.checker" target="matrixPanel.createBox">
+      <point x="0.0" y="-103.0" />
+      <point x="105.79166666666666" y="244.0" />
+      <point x="100.27083333333331" y="244.0" />
+      <point x="-98.33333333333334" y="102.0" />
+    </edge>
+    <edge source="matrixPanel.createMatrix" target="matrixPanel.createBox">
+      <point x="-55.0" y="-124.0" />
+      <point x="148.2986111111111" y="490.0" />
+      <point x="217.29166666666666" y="490.0" />
+      <point x="217.29166666666666" y="244.0" />
+      <point x="139.60416666666666" y="244.0" />
+      <point x="-59.0" y="102.0" />
+    </edge>
+    <edge source="login.startPanel" target="matrixPanel.createMatrix">
+      <point x="99.33333333333334" y="-92.0" />
+      <point x="287.0972222222222" y="1015.0" />
+      <point x="285.5" y="1015.0" />
+      <point x="285.5" y="803.0" />
+      <point x="276.6319444444444" y="803.0" />
+      <point x="73.33333333333331" y="124.0" />
+    </edge>
+    <edge source="game.gamePanel" target="matrixPanel.createMatrix">
+      <point x="-68.75" y="-81.0" />
+      <point x="68.75" y="803.0" />
+      <point x="129.96527777777777" y="803.0" />
+      <point x="-73.33333333333331" y="124.0" />
+    </edge>
+    <edge source="login.startPanel" target="game.gamePanel">
+      <point x="-99.33333333333329" y="-92.0" />
+      <point x="88.43055555555557" y="1015.0" />
+      <point x="68.75" y="1015.0" />
+      <point x="-68.75" y="81.0" />
+    </edge>
+    <edge source="matrixPanel.createMatrix" target="matrixPanel.checker">
+      <point x="-91.66666666666666" y="-124.0" />
+      <point x="111.63194444444444" y="510.0" />
+      <point x="105.79166666666666" y="510.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="matrixPanel.createBox" target="matrixPanel.createMatrix">
+      <point x="19.666666666666657" y="102.0" />
+      <point x="218.27083333333331" y="224.0" />
+      <point x="239.29166666666666" y="224.0" />
+      <point x="239.29166666666666" y="510.0" />
+      <point x="221.6319444444444" y="510.0" />
+      <point x="18.333333333333314" y="-124.0" />
+    </edge>
+    <edge source="game.gamePanel" target="login.startPanel">
+      <point x="68.75" y="81.0" />
+      <point x="206.25" y="1015.0" />
+      <point x="187.76388888888889" y="1015.0" />
+      <point x="2.8421709430404007E-14" y="-92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.048223350253807" x="283.0000000000001" y="471.0629539951574" />
+  <SelectedNodes>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
